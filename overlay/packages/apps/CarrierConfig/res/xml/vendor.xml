@@ -874,6 +874,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="add_participant_only_in_conference" value="true" />
         <boolean name="config_enable_cfu_time" value="true" />
         <boolean name="support_cancel_modify_call" value="true" />
+        <boolean name="config_enable_video_crbt" value="true" />
     </carrier_config>
 
     <carrier_config mcc="460" mnc="01">
@@ -929,6 +930,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="add_participant_only_in_conference" value="true" />
         <boolean name="config_enable_cfu_time" value="true" />
         <boolean name="support_cancel_modify_call" value="true" />
+        <boolean name="config_enable_video_crbt" value="true" />
     </carrier_config>
 
     <carrier_config mcc="460" mnc="03">
@@ -1019,6 +1021,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="add_participant_only_in_conference" value="true" />
         <boolean name="config_enable_cfu_time" value="true" />
         <boolean name="support_cancel_modify_call" value="true" />
+        <boolean name="config_enable_video_crbt" value="true" />
     </carrier_config>
 
     <carrier_config mcc="460" mnc="08">
@@ -1056,6 +1059,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="add_participant_only_in_conference" value="true" />
         <boolean name="config_enable_cfu_time" value="true" />
         <boolean name="support_cancel_modify_call" value="true" />
+        <boolean name="config_enable_video_crbt" value="true" />
     </carrier_config>
 
     <carrier_config mcc="460" mnc="09">
