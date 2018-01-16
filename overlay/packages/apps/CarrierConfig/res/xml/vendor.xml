@@ -821,6 +821,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
         </map>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
     </carrier_config>
 
     <carrier_config mcc="455" mnc="07">
@@ -836,6 +841,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
         </map>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
     </carrier_config>
 
     <carrier_config mcc="460" mnc="00">
@@ -962,6 +972,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true"/>
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
     </carrier_config>
 
     <carrier_config mcc="460" mnc="04">
@@ -1128,6 +1143,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true"/>
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
     </carrier_config>
 
     <carrier_config mcc="460" mnc="12">
