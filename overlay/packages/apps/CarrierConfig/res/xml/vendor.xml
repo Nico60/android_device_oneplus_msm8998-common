@@ -1323,6 +1323,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="dun" />
             <item value="supl" />
         </string-array>
+        <boolean name="ignore_reset_ut_capability_bool" value="true" />
     </carrier_config>
 
     <carrier_config mcc="460" mnc="04">
@@ -1494,6 +1495,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <item value="dun" />
             <item value="supl" />
         </string-array>
+        <boolean name="ignore_reset_ut_capability_bool" value="true" />
     </carrier_config>
 
     <carrier_config mcc="460" mnc="12">
