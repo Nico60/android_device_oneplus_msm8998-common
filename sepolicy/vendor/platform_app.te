@@ -1,2 +1,4 @@
 allow platform_app hal_ifaa_hwservice:hwservice_manager { find };
+allow platform_app storage_stub_file:dir getattr;
+
 binder_call(platform_app, hal_ifaa_default)
