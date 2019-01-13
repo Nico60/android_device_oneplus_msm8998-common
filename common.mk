@@ -89,6 +89,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@4.0-impl \
     android.hardware.audio@2.0-service \
     android.hardware.audio.effect@4.0-impl \
+    android.hardware.soundtrigger@2.0-impl \
     audio.a2dp.default \
     audio_amplifier.msm8998 \
     audio.primary.msm8998 \
@@ -137,6 +138,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4 \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     camera.device@1.0-impl \
@@ -302,6 +304,7 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
+    vendor.nxp.hardware.nfc@1.1-service \
     android.hardware.nfc@1.0-impl \
     com.android.nfc_extras \
     com.nxp.nfc.nq \
@@ -312,8 +315,7 @@ PRODUCT_PACKAGES += \
     NQNfcNci \
     nqnfcee_access.xml \
     nqnfcse_access.xml \
-    Tag \
-    vendor.nxp.hardware.nfc@1.1-service
+    Tag
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc/libese-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libese-nxp.conf \
@@ -323,6 +325,7 @@ PRODUCT_COPY_FILES += \
 
 # NFC - Secure Element
 PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.0 \
     android.hardware.secure_element@1.0-service \
     SecureElement
 
@@ -379,11 +382,14 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.2 \
     android.hardware.radio.config@1.0 \
+    android.hardware.radio.deprecated@1.0 \
+    android.hardware.radio@1.0 \
+    android.hardware.radio@1.1 \
+    android.hardware.radio@1.2 \
+    libprotobuf-cpp-full \
     librmnetctl \
-    libxml2 \
-    libprotobuf-cpp-full
+    libxml2
 
 PRODUCT_PACKAGES += \
     ims-ext-common \
