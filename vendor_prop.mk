@@ -92,6 +92,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.cne.feature=1
 
+# Connor
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.connor.disable=1
+
 # Core control
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.core_ctl_min_cpu=0 \
@@ -104,10 +108,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.data.mode=concurrent \
     ro.use_data_netmgrd=true \
     ro.vendor.use_data_netmgrd=true
-
-#Disable Connor
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.connor.disable=1
 
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -142,7 +142,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.enable_default_color_mode=0 \
     vendor.display.perf_hint_window=50
 
-#IOP properties
+# IOP
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.iop.enable_uxe=0 \
     vendor.iop.enable_prefetch_ofr=0
@@ -186,7 +186,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # QTI
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.at_library=libqti-at.so \
-    ro.vendor.gt_library=libqti-gt.so
+    ro.vendor.gt_library=libqti-gt.so \
+    ro.vendor.qti.sys.fw.bg_apps_limit=60 \
+    ro.vendor.qti.sys.fw.bservice_enable=true \
+    ro.vendor.qti.sys.fw.bservice_limit=5 \
+    ro.vendor.qti.sys.fw.bservice_age=5000
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
