@@ -20,8 +20,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
-    af.fast_track_multiplier=2 \
-    vendor.audio_hal.period_size=192 \
+    af.fast_track_multiplier=1 \
     audio.offload.video=true \
     audio.offload.pcm.16bit.enable=true \
     audio.offload.pcm.24bit.enable=true \
@@ -37,10 +36,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio_hal.period_size=192 \
     ro.vendor.audio.sdk.fluencetype=fluencepro \
+    persist.vendor.audio_hal.dsp_bit_width_enforce_mode=24 \
     persist.vendor.audio.fluence.voicecall=true \
     persist.vendor.audio.fluence.voicerec=true \
     persist.vendor.audio.fluence.speaker=true \
-    vendor.audio.tunnel.encode=false \
+    vendor.audio.tunnel.encode=true \
     persist.vendor.audio.ras.enabled=false \
     vendor.audio.offload.buffer.size.kb=32 \
     vendor.audio.offload.track.enable=true \
@@ -98,7 +98,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Core control
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.qti.core_ctl_min_cpu=0 \
+    ro.vendor.qti.core_ctl_min_cpu=2 \
     ro.vendor.qti.core_ctl_max_cpu=4
 
 # Data
@@ -221,7 +221,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.sw_mbn_update=0 \
     persist.radio.start_ota_daemon=0 \
     persist.vendor.ims.dropset_feature=0 \
-    persist.vendor.radio.add_power_save=1 \
+    persist.vendor.radio.add_power_save=true \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
     persist.vendor.radio.custom_ecc=1 \
     persist.vendor.radio.data_con_rprt=1 \
