@@ -1,2 +1,2 @@
 # AptX / AptXHD
-allow bluetooth vendor_file:file { rx_file_perms };
+#allow bluetooth vendor_file:file { rx_file_perms };
